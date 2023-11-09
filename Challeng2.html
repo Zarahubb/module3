@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE 2</title>
+</head>
+
+<body>
+    <script>
+        var Grade = prompt("Type your score")
+        var Result;
+        if (Grade >= 70) {
+            Result = 'A'
+            document.write("<h1>" + 'Your Score is:' + ' ' + Grade + ' ' + 'And Your Grade is:' + ' ' + Result + '!' + "</h1>")
+        } if (Grade <= 69 && Grade >= 50) {
+            Result = 'C'
+            document.write("<h1>" + 'Your Score is:' + ' ' + Grade + ' ' + 'And Your Grade is:' + ' ' + Result + '!' + "</h1>")
+        } if (Grade <= 49) {
+            Result = 'F'
+            document.write("<h1>" + 'Your Score is:' + ' ' + Grade + ' ' + 'And Your Grade is:' + ' ' + Result + '!' + "</h1>")
+        }
+
+    </script>
+</body>
+
+</html>
